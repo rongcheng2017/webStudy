@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单学习</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <p>请输入你的姓名：<input type="text"></p>
+        <p>报考院校：<input type="text" value="清华大学" disabled></p>
+        <p>毕业院校：<input type="text" placeholder="请输入真实毕业院校"></p>
+        <p>性别：
+            <label><input type="radio" name="sex" value="男">男</label>
+            <label><input type="radio" name="sex" value="女" checked>女</label>
+        </p>
+        <p>请输入密码：<input type="password"></p>
+
+        <p>请选择你最喜欢的编程语言：
+            <select>
+                <option value="Java">Java</option>
+                <option value="Php">PHP</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+            </select>
+        </p>
+        <p>
+            留言：
+            <textarea cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <button>我是一个普通的按钮</button>
+        </p>
+       
+        <p>
+            颜色选择：<input type="color" name="" id="">
+        </p>
+        <p>
+            日期选择: <input type="date" name="" id="">
+        </p>
+        <p>
+            电子邮箱: <input type="email" name="" id="">
+        </p>
+
+         <p>
+             <input type="submit" value="提交表单">
+         </p>
+         <p>
+             <input type="reset" value="重置">
+         </p>
+    </form>
+
+</body>
+
+</html>
